@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cssingreso.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  
+    <title>FinanzaApp</title>
+</head>
+<body>
+  
+    <form action="registrodedatos.php" method="post">
+        <div class="main__login">
+            <div class="derecha__login">
+                <div class="carta__ingreso">
+                  <h1>Ingresos</h1>
+                  <div class="textfield">
+                    <label for="Concepto">Concepto</label>
+                    <input type="text" name="concepto" placeholder="Concepto" required>
+                  </div>
+                  <div class="textfield">
+                    <label for="gasto">Ingreso</label>
+                    <input type="text" name="cantidad" placeholder="Cantidad de ingreso" required>
+                  </div>
+                  <div class="textfield">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" name="categoria" placeholder="Categoria"  required>
+                  </div>
+                  <div class="textfield">
+                    <label for="subcategoria">Subcategoria</label>
+                    <input type="text" name="subcategoria" placeholder="Subcategoria" >
+                  </div>
+                  <button type="submit" class="btn__login" value="ingresar" onclick="alerta()">Guardar</button>
+                </div>
+              </div>
+          <div class="izquierda__login">
+            <h1>FinanzaApp </h1>
+            <p>LLeva tus cuentas de la mejor manera</p>
+            <img src="./Imagenes/E-Wallet-pana.png"  class="imagen" alt="login">
+          </div>
+          
+        </div>   
+        
+      </form>    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cssingreso.css">
+  
+    
+    <title>FinanzaApp</title>
+    
+
+    
+</head>
+<body>
+    <form action="validar.php" method="post">
+      <div class="main__login">
+        <div class="izquierda__login">
+          <h1>FinanzaApp </h1>
+          <p>LLeva tus cuentas de la mejor manera</p>
+          <img src="./Imagenes/Login-rafiki.png"  class="imagen" alt="login">
+        </div>
+        <div class="derecha__login">
+          <div class="carta__ingreso">
+            <h1>Iniciar Sesiòn</h1>
+            <div class="textfield">
+              <label for="Usuario">Correo Electronico</label>
+              <input type="email" name="correo" placeholder="Correo" >
+            </div>
+            <div class="textfield">
+              <label for="Contraseña">Contraseña</label>
+              <input type="password" name="contraseña" placeholder="Contraseña">
+            </div>
+            <button type="submit" class="btn__login" value="ingresar">Ingresar</button>
+            <button type="button" class="btn_registrarse" value="registrarse" onclick="redireccionregistro()">Registrarse</button>
+            <script src="./redirection.js"></script>
+            </div>
+        </div>
+      </div>     
+    </form>    
+</body>
+</html>

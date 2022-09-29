@@ -1,0 +1,200 @@
+
+body{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+   
+}
+.navbar{
+    
+    
+    display: flex;
+    justify-content: center;
+    margin:0px 20px;
+    align-content: center;
+    box-shadow: 0 0 20px  #00000056;
+    border-radius: 10px;
+   
+}
+.regis{
+    margin: 2px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar__button__registro{
+    width: 100%;
+    padding: 10px 10px;
+    margin:  0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #a4c8dbe7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.navbar__button__ingresar{
+    width: 100%;
+    padding: 10px 10px;
+    
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #a4c8dbe7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.movimiento{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0px 10px 40px  -12px #00000056;
+    border-radius: 10px;
+    
+    
+}
+.movimiento__titulo{
+    padding:0px 20px;
+}
+.movimiento__input{
+    width: 30%;
+    display: flex;
+    align-items:center;
+}
+.movimiento_ingreso{
+    width: 100%;
+    padding: 10px 10px;
+    margin:  0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.movimiento_gasto{
+    width: 100%;
+    padding: 10px 10px;
+    margin:  0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #ff0400;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.filtro_text{
+    
+    padding:0px 20px;
+}
+.Filtro{
+    
+    margin:0px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 10px 40px  -12px #00000056;
+    border-radius: 10px;
+    
+}
+.filtro_date{
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+.fechas{
+    
+    padding: 10px 10px;
+    margin:  10px 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #aabcfe;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.form_control{
+    display: flex;
+    align-items: center;
+    margin:0 10px;  
+    width: 100%;     
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: #a4c8dbe7;
+    color: #fff;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+.btn_filtrar{
+    width: 100%;
+    padding: 10px 10px;
+    margin:  0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.table_responsive_resultadoFiltro{
+display: flex;
+margin:0px 20px;    
+}
+table {    
+  
+    font-size: 12px;    
+    margin: 20px 0px;     
+    width: 1800px; 
+    text-align: left;    
+    border-collapse: collapse; 
+}
+
+th {     
+    
+    font-size: 13px;    
+    font-weight: normal;     
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;   
+    border-bottom: 1px solid #fff; color: #039; }
+
+td {    
+    padding: 8px;     
+    background: #e8edff;    
+    border-bottom: 1px solid #fff;
+    color: #669;   
+    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+
+
+  
+      
